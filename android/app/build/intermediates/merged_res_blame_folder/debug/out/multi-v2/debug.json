@@ -4381,23 +4381,6 @@
                     }
                 },
                 {
-                    "source": "/home/daniel/Projects/TemplateProject/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "52",
-                        "endOffsets": "64"
-                    },
-                    "to": {
-                        "startLines": "1885",
-                        "startColumns": "4",
-                        "startOffsets": "125905",
-                        "endColumns": "52",
-                        "endOffsets": "125953"
-                    }
-                },
-                {
                     "source": "/home/daniel/.gradle/caches/transforms-3/aa8b400e3fa62f6a4287be6e71a3821f/transformed/lifecycle-viewmodel-2.5.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -4465,42 +4448,6 @@
                         "endLines": "435,1021,1022,1023,1031,1032,1033,1710,11757",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "22357,62312,62360,62416,63102,63178,63250,115234,749149"
-                    }
-                },
-                {
-                    "source": "/home/daniel/Projects/TemplateProject/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
-                    },
-                    "to": {
-                        "startLines": "2106",
-                        "startColumns": "4",
-                        "startOffsets": "154325",
-                        "endLines": "2109",
-                        "endColumns": "12",
-                        "endOffsets": "154503"
-                    }
-                },
-                {
-                    "source": "/home/daniel/Projects/TemplateProject/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "154,258",
-                        "endColumns": "63,68",
-                        "endOffsets": "213,322"
-                    },
-                    "to": {
-                        "startLines": "1848,1849",
-                        "startColumns": "4,4",
-                        "startOffsets": "123259,123323",
-                        "endColumns": "63,68",
-                        "endOffsets": "123318,123387"
                     }
                 },
                 {
@@ -4709,6 +4656,42 @@
                     }
                 },
                 {
+                    "source": "/home/daniel/Projects/ReactNativeTemplate/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "52",
+                        "endOffsets": "64"
+                    },
+                    "to": {
+                        "startLines": "1885",
+                        "startColumns": "4",
+                        "startOffsets": "125905",
+                        "endColumns": "52",
+                        "endOffsets": "125953"
+                    }
+                },
+                {
+                    "source": "/home/daniel/Projects/ReactNativeTemplate/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "2106",
+                        "startColumns": "4",
+                        "startOffsets": "154325",
+                        "endLines": "2109",
+                        "endColumns": "12",
+                        "endOffsets": "154503"
+                    }
+                },
+                {
                     "source": "/home/daniel/.gradle/caches/transforms-3/38344280fe9342d918737701bd2e1811/transformed/jetified-autofill-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,19,20,27,32,37,44,53",
@@ -4725,6 +4708,23 @@
                         "endLines": "958,6322,7161,7168,7173,7178,7185,7194,9886",
                         "endColumns": "67,12,59,12,12,12,12,12,24",
                         "endOffsets": "58215,445878,508825,509207,509487,509769,510153,510651,662054"
+                    }
+                },
+                {
+                    "source": "/home/daniel/Projects/ReactNativeTemplate/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "154,258",
+                        "endColumns": "63,68",
+                        "endOffsets": "213,322"
+                    },
+                    "to": {
+                        "startLines": "1848,1849",
+                        "startColumns": "4,4",
+                        "startOffsets": "123259,123323",
+                        "endColumns": "63,68",
+                        "endOffsets": "123318,123387"
                     }
                 },
                 {
