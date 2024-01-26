@@ -1,11 +1,12 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
+import Letter from "../assets/Vector.svg";
 
 
 const Screen = () => {
     return(
-        <View style={style.container} >
-            <Text>Screen</Text>
+        <View style={style.container}>
+            <Letter width={"50%"} height={"50%"} />
         </View>
     )
 }
@@ -13,8 +14,8 @@ const Screen = () => {
 const style = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: 'center',
         justifyContent: 'center',
+        alignItems: 'center',
     },
 })
 
