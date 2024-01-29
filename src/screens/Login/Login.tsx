@@ -50,7 +50,7 @@ const Login = () => {
                     <PassInput placeholder="Digite aqui sua senha" value={password} handleChange={setPassword} onSubmit={password_onSubmit} pass_ref={password_ref} />
                 </View>
                 <Button text="Entrar" onPress={handleSubmit} />
-                <TouchableOpacity style={{alignItems: 'center', paddingTop: '2%'}}>
+                <TouchableOpacity style={{alignItems: 'center', paddingTop: '2%'}} onPress={() => navigation.navigate("RecoveryPassword")}>
                     <Text style={style.textLostPassword}>Esqueci a senha</Text>
                 </TouchableOpacity>
             </View>
