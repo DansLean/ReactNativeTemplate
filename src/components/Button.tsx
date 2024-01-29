@@ -19,10 +19,13 @@ const style = StyleSheet.create({
     button: {
         borderWidth: 1,
         padding: 10,
-        backgroundColor: 'lightgray',
+        backgroundColor: 'black',
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     text: {
         fontSize: 20,
+        color: 'white',
     },
 })
 
