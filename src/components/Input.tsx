@@ -1,5 +1,5 @@
 import React from "react";
-import { TextInput, StyleSheet, View, NativeSyntheticEvent, TextInputChangeEventData, Keyboard, KeyboardTypeOptions } from "react-native";
+import { TextInput, StyleSheet, View, KeyboardTypeOptions } from "react-native";
 
 
 type inputProps = {
@@ -8,12 +8,14 @@ type inputProps = {
     handleChange?: any,
     onSubmit?: () => void,
     keyboardType?: KeyboardTypeOptions,
+    input_ref: any
 }
 
 const Input = (props: inputProps) => {
     return (
         <View>
             <TextInput
+            ref={props.input_ref}
             onChangeText={ (e) => props.handleChange(e)}
             value={props.value} placeholder={props.placeholder}
             placeholderTextColor={'#9D9D9D'}
@@ -34,7 +36,6 @@ const style = StyleSheet.create({
         paddingLeft: 7,
         borderWidth: 1,
         height: 60,
-        marginHorizontal: '5%',
     },
 })
 
