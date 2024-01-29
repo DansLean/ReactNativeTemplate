@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import Splash from "../screens/Login/Splash";
 import Login from "../screens/Login/Login";
+import RecoveryPassword from "../screens/Login/RecoveryPassword";
 
 
 const Stack = createNativeStackNavigator()
@@ -11,6 +12,7 @@ const Stack = createNativeStackNavigator()
 type StackNavigation = {
     Splash: undefined;
     Login: undefined;
+    RecoveryPassword: undefined;
 };
 
 export type StackTypes = NativeStackNavigationProp<StackNavigation>;
@@ -29,6 +31,12 @@ const Screens = () => {
                 <Stack.Screen
                     name="Login"
                     component={Login}
+                    options={{ headerShown: false }}
+                />
+
+                <Stack.Screen
+                    name="RecoveryPassword"
+                    component={RecoveryPassword}
                     options={{ headerShown: false }}
                 />
 
