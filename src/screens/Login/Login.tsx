@@ -33,6 +33,7 @@ const Login = () => {
 
       const handleSubmit = () => {
         //fazer login
+        navigation.navigate("Home");
       }
 
     return(
