@@ -20,7 +20,7 @@ const RecoveryPassword = () => {
       }
 
       const handleSubmit = () => {
-        console.log("asdas")
+        //enviar email de recuperação de senha        
       }
 
     return(
