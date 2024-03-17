@@ -1,50 +1,46 @@
 import React from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
-import SideMenuIcon from "../assets/SideMenuIcon";
-import { SvgXml } from "react-native-svg";
 
 
 type headerProps = {
     title: string,
+    leftButtonIcon?: any,
+    leftOnPress?: any,
+    rightButtonIcon?: any,
+    rightOnPress?: any,
 }
 
-export default function HeaderBar(props: headerProps) {
+const HeaderBar = (props: headerProps) => {
     return(
-        <View style={style.headerBar}>
-            <View style={style.viewSideButton}>
-                <TouchableOpacity>
-                    <SvgXml xml={SideMenuIcon}/>
-                </TouchableOpacity>
-            </View>
-            <View style={style.viewTitle}>
-                <Text style={style.titleText}>{props.title}</Text>
-            </View>
-            <View style={style.viewSideButton}/>
+        <View style={style.container}>
+            { props.leftButtonIcon ? <TouchableOpacity style={style.leftButton} onPress={props.leftOnPress ? (e) => props.leftOnPress(e) : () => {}}><props.leftButtonIcon /></TouchableOpacity> : <></> }
+            <Text style={style.title}>{props.title}</Text>
+            { props.rightButtonIcon ? <TouchableOpacity style={style.rightButton} onPress={props.rightOnPress ? (e) => props.rightOnPress(e) : () => {}}><props.rightButtonIcon /></TouchableOpacity> : <></> }
         </View>
     )
 }
 
 const style = StyleSheet.create({
-    headerBar: {
-        marginTop: 0,        
+    container: {        
         height: 60,
-        backgroundColor: '#4f0070',
+        backgroundColor: 'black',
         flexDirection: 'row',
+        justifyContent: 'center', 
+        alignItems: 'center',
     },
-    titleText: {
+    leftButton: {
+        position: 'absolute',
+        left: 10,
+    },
+    rightButton: {
+        position: 'absolute',
+        right: 10,
+    },
+    title: {
         color: 'white',
         fontSize: 20,
         fontWeight: '700',
     },
-    viewTitle: {
-        flex: 5, 
-        justifyContent: 'center', 
-        alignItems: 'center',
-    },
-    viewSideButton: {
-        flex: 1, 
-        justifyContent: 'center', 
-        alignItems: 'center',
-        //backgroundColor: 'red',
-    }
 })
+
+export default HeaderBar;
