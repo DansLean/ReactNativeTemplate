@@ -1,11 +1,9 @@
 import React, { useRef, useState } from "react";
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from "react-native";
+import { Input, PassInput, Button } from "../../components";
+import { Logo } from "../../assets";
 import { useNavigation } from '@react-navigation/native';
 import { StackTypes } from '../../routes/Stack';
-import Input from "../../components/Input";
-import PassInput from "../../components/PassInput";
-import Logo from "../../assets/Logo.svg";
-import Button from "../../components/Button";
 
 
 const Login = () => {

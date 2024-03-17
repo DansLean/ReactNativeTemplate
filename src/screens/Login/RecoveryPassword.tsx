@@ -2,10 +2,8 @@ import React, { useRef, useState } from "react";
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from "react-native";
 import { useNavigation } from '@react-navigation/native';
 import { StackTypes } from '../../routes/Stack';
-import Input from "../../components/Input";
-import Logo from "../../assets/Logo.svg";
-import Back from "../../assets/Back.svg";
-import Button from "../../components/Button";
+import { Input, Button } from "../../components";
+import { Logo, Back } from "../../assets";
 
 
 const RecoveryPassword = () => {

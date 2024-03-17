@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import { View, StyleSheet } from "react-native";
 import { useNavigation } from '@react-navigation/native';
 import { StackTypes } from '../../routes/Stack';
-import Logo from "../../assets/Logo.svg";
-
+import { Logo } from "../../assets";
 
 
 const Splash = () => {

@@ -1,13 +1,13 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import HeaderBar from "../components/HeaderBar";
-import { SvgXml } from "react-native-svg";
-import SideMenuIcon from "../assets/SideMenuIcon";
+import { HeaderBar } from "../components";
+import { SideMenu } from "../assets";
+
 
 const Home = () => {
     return(
         <View style={style.container}>
-            <HeaderBar title={'Home'}></HeaderBar>
+            <HeaderBar title={'Home'} leftButtonIcon={SideMenu} />
             <View style = {style.viewCenter}>
                 <Text>Home</Text>
             </View>

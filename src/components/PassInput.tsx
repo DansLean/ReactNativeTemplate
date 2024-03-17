@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { TextInput, StyleSheet, View, TouchableOpacity } from "react-native";
-
-import Eye from "../assets/Eve.svg";
-import EyeOff from "../assets/EyeOff.svg";
+import { Eye, EyeOff } from "../assets";
 
 
 type inputProps = {
