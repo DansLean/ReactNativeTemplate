@@ -2,9 +2,12 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { HeaderBar } from "../components";
 import { SideMenu } from "../assets";
+import { requestUserPermission } from "../util/functions";
 
 
 const Home = () => {
+    requestUserPermission();
+    
     return(
         <View style={style.container}>
             <HeaderBar title={'Home'} leftButtonIcon={SideMenu} />
