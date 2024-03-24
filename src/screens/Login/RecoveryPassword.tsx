@@ -55,6 +55,7 @@ const style = StyleSheet.create({
     },
     textTitle: {
         fontSize: 20,
+        padding: '1%',
         color: 'black',
     },
     textLostPassword: {

@@ -75,6 +75,7 @@ const style = StyleSheet.create({
         color: 'black',
     },
     textLostPassword: {
+        paddingTop: '3%',
         fontSize: 15,
     },
     inputBox: {
