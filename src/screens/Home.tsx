@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { HeaderBar } from "../components";
 import { SideMenu } from "../assets";
 import { requestUserPermission } from "../util/functions";
+import MyTabs from "../components/BottomTab";
 
 
 const Home = () => {
@@ -10,10 +11,7 @@ const Home = () => {
     
     return(
         <View style={style.container}>
-            <HeaderBar title={'Home'} leftButtonIcon={SideMenu} />
-            <View style = {style.viewCenter}>
-                <Text>Home</Text>
-            </View>
+            <MyTabs />
         </View>
     )
 }
